@@ -1,2 +1,2 @@
-FROM node:1.27-alpine
+FROM nginx:1.27-alpine
 copy build /usr/share/nginx/html
